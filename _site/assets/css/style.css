@@ -1458,47 +1458,37 @@ Icon for all respective meta
 }
 
 .contact-section strong {
-    display: block;
     text-transform: uppercase;
-}
-.contact-form strong {
-    margin-bottom: 40px;
-}
 
-.contact-form textarea.form-control {
-    height: 115px;
-}
-
-.contact-form .btn {
-    margin-top: 15px;
 }
 
 .contact-section div > i{
     float: left;
     font-size: 45px;
-    margin-right: 20px;
+
+
 }
-.contact-section address,
+
 .contact-section .contact-number {
     overflow: hidden;
     line-height: 30px;
     font-weight: 400;
-    margin-bottom: 45px
+    margin-bottom: 45px;
+    float: left;
+
 }
 
-
-/*MAP*/
-.location-map {
-    padding: 4px;
-    border: 1px solid #eee;
-    border-bottom: 3px double #eee;
-}
-.map-canvas {
-    height: 350px;
+.contact-number {
+    text-align: center;
+    width: 50%;
+    width: 100%;
 }
 
-
-
+#faIcon {
+    text-align: center;
+    width: 50%;
+    width: 100%;
+}
 
 /* === Footer Wrapper === */
 .footer-wrapper {
